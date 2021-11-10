@@ -3,5 +3,4 @@ class CreateDevs < ActiveRecord::Migration[6.1]
     create_table :devs do |t|
       t.string :name
     end
-  end
 end
